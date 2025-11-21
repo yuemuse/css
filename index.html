@@ -16,12 +16,55 @@
       margin: 40px auto;
       text-align: center;
     }
+    table {
+      width: 100%;
+      border-collapse: collapse; /* 枠線を重ねずに結合 */
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc; /* 枠線 */
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #3399ff;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2; /* 偶数行の背景色 */
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
+  <h1>CSS</h1>
   <div class="box">
     こんにちは！<br>
     これはシンプルなボックスです。
   </div>
+  <h1>CSS 索引</h1>
+  <table>
+    <tr>
+      <th>日 (番号)	</th>
+      <th>件名</th>
+      <th>ページ</th>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>CSSの導入</td>
+      <td><a href="index.html" target="_blank">index.html</a></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>CSSの基本</td>
+      <td><a href="basic.html" target="_blank">basic.html</a></td>
+    </tr>
+  </table>
 </body>
 </html>
