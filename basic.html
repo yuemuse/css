@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>CSSの基本例</title>
+  <style>
+    /* ページ全体の背景色とフォント */
+    body {
+      font-family: sans-serif; /* フォントの種類 */
+      background-color: #f0f8ff; /* 背景色 */
+      margin: 0; /* ページの余白を消す */
+      padding: 0;
+    }
+
+    /* ボックスのスタイル */
+    .box {
+      width: 250px; /* 幅 */
+      padding: 20px; /* 内側の余白 */
+      margin: 50px auto; /* 上下50px、左右中央寄せ */
+      background-color: #ffffff; /* 背景色 */
+      border: 2px solid #3399ff; /* 枠線の太さと色 */
+      border-radius: 10px; /* 角を丸くする */
+      text-align: center; /* 文字を中央揃え */
+    }
+
+    /* ボタンの基本スタイル */
+    .button {
+      display: inline-block; /* 横並びにできる */
+      padding: 10px 20px; /* 上下左右の余白 */
+      margin-top: 10px; /* 上に余白 */
+      background-color: #3399ff; /* 背景色 */
+      color: white; /* 文字色 */
+      text-decoration: none; /* 下線を消す */
+      border-radius: 5px; /* 角丸 */
+    }
+
+    /* ホバー時に色を変える */
+    .button:hover {
+      background-color: #007acc;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>CSSの基本</h1>
+    <p>これは簡単な例です。</p>
+    <a href="#" class="button">クリック</a>
+  </div>
+</body>
+</html>
