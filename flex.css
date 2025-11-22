@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #f2f7ff;
+}
+
+/* Flexboxのコンテナ */
+.flex-container {
+  display: flex;              /* Flexを有効化 */
+  justify-content: center;    /* 横方向の中央揃え */
+  align-items: center;        /* 縦方向の中央揃え */
+  gap: 15px;                  /* アイテムの間隔 */
+  padding: 20px;
+  background-color: #d6e6ff;
+  height: 150px;
+}
+
+/* 各アイテム */
+.flex-item {
+  background-color: #3399ff;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
