@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #fff8e1;
+}
+
+/* Gridコンテナ */
+.grid-container {
+  display: grid;                               /* Gridを有効化 */
+  grid-template-columns: repeat(3, 1fr);       /* 3列にする */
+  gap: 15px;                                    /* アイテム間のスペース */
+  background-color: #ffe8b0;
+  padding: 20px;
+}
+
+/* 各アイテム */
+.grid-item {
+  background-color: #ffb300;
+  padding: 20px;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+}
