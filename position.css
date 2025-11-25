@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+/* 共通のボックススタイル */
+.box {
+  padding: 15px;
+  margin: 20px 0;
+  background-color: #d0e7ff;
+  border-radius: 6px;
+}
+
+/* 1. static（デフォルト） */
+.static-box {
+  position: static; /* デフォルト設定なので実は不要 */
+}
+
+/* 2. relative（元の位置からずらせる） */
+.relative-box {
+  position: relative;
+  top: 10px;   /* 下に10px移動 */
+  left: 20px;  /* 右に20px移動 */
+  background-color: #b0d4ff;
+}
+
+/* 3. absolute（親要素に対して絶対配置） */
+.container {
+  position: relative; /* absoluteの基準になる */
+  height: 150px;
+  background-color: #f0f0f0;
+  margin-bottom: 50px;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #8bc5ff;
+}
+
+/* 4. fixed（画面の端に固定） */
+.fixed-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4da8ff;
+  color: white;
+}
